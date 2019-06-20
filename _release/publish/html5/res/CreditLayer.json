@@ -1,0 +1,155 @@
+{
+  "ID": "509a53ea-e930-4b52-94cc-4b2838b9a596",
+  "Version": "3.10.0.0",
+  "Name": "CreditLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 70,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/bg_credits.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 358.17
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3731
+            },
+            "PreSize": {
+              "X": 1.1031,
+              "Y": 0.6323
+            },
+            "LeftMargin": -33.0,
+            "RightMargin": -33.0,
+            "TopMargin": 298.33,
+            "BottomMargin": 54.67,
+            "Tag": 71,
+            "ActionTag": -764632030,
+            "Size": {
+              "X": 706.0,
+              "Y": 607.0
+            },
+            "Name": "bg_credits",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "images/btnClose.m0001.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "images/btnClose.m0000.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 141,
+            "Scale9Height": 138,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 555.3682,
+              "Y": 746.781
+            },
+            "Scale": {
+              "ScaleX": 0.75,
+              "ScaleY": 0.75
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8678,
+              "Y": 0.7779
+            },
+            "PreSize": {
+              "X": 0.2672,
+              "Y": 0.1667
+            },
+            "LeftMargin": 469.8682,
+            "RightMargin": -0.8682,
+            "TopMargin": 133.219,
+            "BottomMargin": 666.781,
+            "Tag": 74,
+            "ActionTag": 777947311,
+            "Size": {
+              "X": 171.0,
+              "Y": 160.0
+            },
+            "Name": "btnClose",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "images/bg_credits.png",
+        "images/btnClose.m0000.png",
+        "images/btnClose.m0001.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

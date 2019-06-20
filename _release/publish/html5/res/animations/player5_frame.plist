@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>player5_0.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{14,4},{76,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{76,79}}</string>
+                <key>sourceSize</key>
+                <string>{76,79}</string>
+            </dict>
+            <key>player5_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{104,4},{94,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{94,79}}</string>
+                <key>sourceSize</key>
+                <string>{94,79}</string>
+            </dict>
+            <key>player5_2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{212,4},{81,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{81,79}}</string>
+                <key>sourceSize</key>
+                <string>{81,79}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>player5.png</string>
+            <key>size</key>
+            <string>{304,85}</string>
+            <key>textureFileName</key>
+            <string>player5.png</string>
+        </dict>
+    </dict>
+</plist>

@@ -1,0 +1,2056 @@
+{
+  "ID": "2b4efb7a-28eb-4290-b98e-c4c83f0b8e6b",
+  "Version": "3.10.0.0",
+  "Name": "Leaderboard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/ingame_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 480.0
+            },
+            "Scale": {
+              "ScaleX": 0.5925,
+              "ScaleY": 0.5925
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.6875,
+              "Y": 1.6875
+            },
+            "LeftMargin": -220.0,
+            "RightMargin": -220.0,
+            "TopMargin": -330.0,
+            "BottomMargin": -330.0,
+            "Tag": 57,
+            "ActionTag": -1124121563,
+            "Size": {
+              "X": 1080.0,
+              "Y": 1620.0
+            },
+            "Name": "ingame_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 198,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.9998,
+              "Y": 534.2885
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5566
+            },
+            "PreSize": {
+              "X": 0.7813,
+              "Y": 0.7292
+            },
+            "LeftMargin": 69.9998,
+            "RightMargin": 70.0002,
+            "TopMargin": 75.7115,
+            "BottomMargin": 184.2885,
+            "Tag": 6,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/Leaderboard.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 249.9998,
+                  "Y": 700.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 1.0
+                },
+                "PreSize": {
+                  "X": 0.584,
+                  "Y": 0.1357
+                },
+                "LeftMargin": 103.9998,
+                "RightMargin": 104.0002,
+                "TopMargin": -47.5,
+                "BottomMargin": 652.5,
+                "Tag": 4,
+                "ActionTag": 1229785098,
+                "Size": {
+                  "X": 292.0,
+                  "Y": 95.0
+                },
+                "Name": "Leaderboard_img",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0,
+                  "Y": 594.0014
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.8486
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0,
+                "RightMargin": 25.0,
+                "TopMargin": 55.9986,
+                "BottomMargin": 594.0014,
+                "Tag": 19,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 20,
+                    "ActionTag": 1244783836,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 21,
+                    "ActionTag": -928690079,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -753020596,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 534.0009
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.7629
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 115.9991,
+                "BottomMargin": 534.0009,
+                "Tag": 22,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName2",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5844,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 185.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 23,
+                    "ActionTag": 1312251670,
+                    "Size": {
+                      "X": 263.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "68",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1133,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 397.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 24,
+                    "ActionTag": -1356954651,
+                    "Size": {
+                      "X": 51.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1201216899,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 474.0005
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.6771
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 175.9995,
+                "BottomMargin": 474.0005,
+                "Tag": 30,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 31,
+                    "ActionTag": -1779397644,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 32,
+                    "ActionTag": -1430077540,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -2013619119,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard3",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 414.0003
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.5914
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 235.9997,
+                "BottomMargin": 414.0003,
+                "Tag": 36,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 37,
+                    "ActionTag": -892205153,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 38,
+                    "ActionTag": 1718828815,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 723227568,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard4",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 354.0003
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.5057
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 295.9997,
+                "BottomMargin": 354.0003,
+                "Tag": 39,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 40,
+                    "ActionTag": -482340632,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 41,
+                    "ActionTag": -993738963,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 1785118720,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard5",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 294.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.42
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 355.9998,
+                "BottomMargin": 294.0002,
+                "Tag": 42,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 43,
+                    "ActionTag": 154560779,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 44,
+                    "ActionTag": 910443838,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -574932931,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard6",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 233.9997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.3343
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 416.0003,
+                "BottomMargin": 233.9997,
+                "Tag": 45,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 46,
+                    "ActionTag": 1829472975,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 47,
+                    "ActionTag": -2050492570,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1187455783,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard7",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 173.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.2486
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 476.0004,
+                "BottomMargin": 173.9996,
+                "Tag": 48,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 49,
+                    "ActionTag": 1731816888,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 50,
+                    "ActionTag": -1293792402,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 711455843,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard8",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 113.9995
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.1629
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 536.0005,
+                "BottomMargin": 113.9995,
+                "Tag": 51,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 52,
+                    "ActionTag": -2010511815,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 53,
+                    "ActionTag": -649728202,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1422375203,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard9",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 0,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 25.0002,
+                  "Y": 53.9992
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.05,
+                  "Y": 0.0771
+                },
+                "PreSize": {
+                  "X": 0.9,
+                  "Y": 0.0714
+                },
+                "LeftMargin": 25.0002,
+                "RightMargin": 24.9998,
+                "TopMargin": 596.0008,
+                "BottomMargin": 53.9992,
+                "Tag": 54,
+                "Children": [
+                  {
+                    "FontSize": 27,
+                    "LabelText": "PlayerName1",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 2.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0044,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.5556,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 2.0,
+                    "RightMargin": 198.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 55,
+                    "ActionTag": 844422070,
+                    "Size": {
+                      "X": 250.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 27,
+                    "LabelText": "69",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Right",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 1.0
+                    },
+                    "Position": {
+                      "X": 448.0,
+                      "Y": 2.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.9956,
+                      "Y": 0.04
+                    },
+                    "PreSize": {
+                      "X": 0.1089,
+                      "Y": 0.8
+                    },
+                    "LeftMargin": 399.0,
+                    "RightMargin": 2.0,
+                    "TopMargin": 8.0,
+                    "BottomMargin": 2.0,
+                    "Tag": 56,
+                    "ActionTag": 1782004997,
+                    "Size": {
+                      "X": 49.0,
+                      "Y": 40.0
+                    },
+                    "Name": "txtScore",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1397474827,
+                "Size": {
+                  "X": 450.0,
+                  "Y": 50.0
+                },
+                "Name": "pnLeaderboard10",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": -180808954,
+            "Size": {
+              "X": 500.0,
+              "Y": 700.0
+            },
+            "Name": "pnLeaderboard",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "images/lowerspikes-sheet0.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.503,
+              "ScaleY": 0.5044
+            },
+            "Position": {
+              "X": 321.9254,
+              "Y": 90.8545
+            },
+            "Scale": {
+              "ScaleX": 0.89,
+              "ScaleY": 0.79
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.503,
+              "Y": 0.0946
+            },
+            "PreSize": {
+              "X": 1.125,
+              "Y": 0.2375
+            },
+            "LeftMargin": -40.2346,
+            "RightMargin": -39.7654,
+            "TopMargin": 756.1487,
+            "BottomMargin": -24.1487,
+            "Tag": 49,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "images/back-sheet0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 85,
+                "Scale9Height": 97,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 79.9991,
+                  "Y": 79.9997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1111,
+                  "Y": 0.3509
+                },
+                "PreSize": {
+                  "X": 0.1597,
+                  "Y": 0.5219
+                },
+                "LeftMargin": 22.4991,
+                "RightMargin": 582.5009,
+                "TopMargin": 88.5003,
+                "BottomMargin": 20.4997,
+                "Tag": 51,
+                "ActionTag": 1354925546,
+                "Size": {
+                  "X": 115.0,
+                  "Y": 119.0
+                },
+                "Name": "btnBack",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ok-sheet1.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "images/ok-sheet0.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 85,
+                "Scale9Height": 97,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 79.9997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8889,
+                  "Y": 0.3509
+                },
+                "PreSize": {
+                  "X": 0.1597,
+                  "Y": 0.5219
+                },
+                "LeftMargin": 582.5,
+                "RightMargin": 22.5,
+                "TopMargin": 88.5003,
+                "BottomMargin": 20.4997,
+                "Tag": 52,
+                "ActionTag": -152256045,
+                "Size": {
+                  "X": 115.0,
+                  "Y": 119.0
+                },
+                "Name": "btnSubmit",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "images/textinput.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 365.9943,
+                  "Y": 79.9997
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5083,
+                  "Y": 0.3509
+                },
+                "PreSize": {
+                  "X": 0.4861,
+                  "Y": 0.4386
+                },
+                "LeftMargin": 190.9943,
+                "RightMargin": 179.0057,
+                "TopMargin": 98.0003,
+                "BottomMargin": 29.9997,
+                "Tag": 50,
+                "Children": [
+                  {
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "fonts/Supercell-magic-webfont.ttf",
+                      "Plist": ""
+                    },
+                    "FontSize": 24,
+                    "IsCustomSize": true,
+                    "LabelText": "",
+                    "PlaceHolderText": "Your name",
+                    "MaxLengthText": 10,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 5.9977,
+                      "Y": 44.9999
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0171,
+                      "Y": 0.45
+                    },
+                    "PreSize": {
+                      "X": 0.9629,
+                      "Y": 0.5
+                    },
+                    "LeftMargin": 5.9977,
+                    "RightMargin": 7.0023,
+                    "TopMargin": 30.0001,
+                    "BottomMargin": 19.9999,
+                    "Tag": 53,
+                    "ActionTag": -1375139410,
+                    "Size": {
+                      "X": 337.0,
+                      "Y": 50.0
+                    },
+                    "Name": "txtPlayerName",
+                    "ctype": "TextFieldObjectData"
+                  }
+                ],
+                "ActionTag": -1504222102,
+                "Size": {
+                  "X": 350.0,
+                  "Y": 100.0
+                },
+                "Name": "imgPlayerName",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -883548088,
+            "Size": {
+              "X": 720.0,
+              "Y": 228.0
+            },
+            "Name": "bottom_img",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 960.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "fonts/Supercell-magic-webfont.ttf",
+        "images/back-sheet0.png",
+        "images/ingame_bg.png",
+        "images/Leaderboard.png",
+        "images/lowerspikes-sheet0.png",
+        "images/ok-sheet0.png",
+        "images/ok-sheet1.png",
+        "images/textinput.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

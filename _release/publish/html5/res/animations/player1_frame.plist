@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>player1_0.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{10,2},{66,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{66,79}}</string>
+                <key>sourceSize</key>
+                <string>{66,79}</string>
+            </dict>
+            <key>player1_1.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{88,2},{80,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{80,79}}</string>
+                <key>sourceSize</key>
+                <string>{80,79}</string>
+            </dict>
+            <key>player1_2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{177,2},{72,79}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false />
+                <key>sourceColorRect</key>
+                <string>{{0,0},{72,79}}</string>
+                <key>sourceSize</key>
+                <string>{72,79}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>player1.png</string>
+            <key>size</key>
+            <string>{256,83}</string>
+            <key>textureFileName</key>
+            <string>player1.png</string>
+        </dict>
+    </dict>
+</plist>
